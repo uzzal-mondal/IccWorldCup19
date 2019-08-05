@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.something.uzzal.ICCWorldCup2019FixtureandLiveScore">
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.something.uzzal.ICCWorldCup2019FixtureandLiveScore.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.something.uzzal.ICCWorldCup2019FixtureandLiveScore.MainActivity" />
+        <activity
+            android:name="com.something.uzzal.ICCWorldCup2019FixtureandLiveScore.ShowFiledActivity"
+            android:parentActivityName="com.something.uzzal.ICCWorldCup2019FixtureandLiveScore.MainActivity" />
+        <activity
+            android:name="com.something.uzzal.ICCWorldCup2019FixtureandLiveScore.LiveScoreActivity"
+            android:parentActivityName="com.something.uzzal.ICCWorldCup2019FixtureandLiveScore.MainActivity" />
+        <activity
+            android:name="com.something.uzzal.ICCWorldCup2019FixtureandLiveScore.AllTeamActivity"
+            android:parentActivityName="com.something.uzzal.ICCWorldCup2019FixtureandLiveScore.MainActivity" />
+        <activity
+            android:name="com.something.uzzal.ICCWorldCup2019FixtureandLiveScore.PlayerNameActivity"
+            android:parentActivityName="com.something.uzzal.ICCWorldCup2019FixtureandLiveScore.AllTeamActivity" />
+        <activity android:name="com.something.uzzal.ICCWorldCup2019FixtureandLiveScore.IccActivity"
+            android:parentActivityName="com.something.uzzal.ICCWorldCup2019FixtureandLiveScore.MainActivity"/>
+        <activity android:name="com.something.uzzal.ICCWorldCup2019FixtureandLiveScore.TvActivity"
+            android:parentActivityName="com.something.uzzal.ICCWorldCup2019FixtureandLiveScore.MainActivity"></activity>
+
+
+
+        <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 aikhane tmr app id boshaba-->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3101248432749567~3891284990"/>
+
+
+
+
+    </application>
+
+</manifest>
