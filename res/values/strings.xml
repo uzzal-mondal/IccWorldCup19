@@ -1,0 +1,864 @@
+<resources>
+    <string name="app_name">ICC World Cup 2019 - Fixture and Live Score</string>
+
+
+    <!-- Start fixture count to world cup-->
+
+
+    <string name="play_1">
+        England vs South Africa.\n
+        date: 30 may.\n
+        time: 3.30 PM.\n
+        venu: Oval, London.\n
+        Game no:- 01.
+    </string>
+
+
+    <string name="play_2">
+        West Indies vs Pakistan.\n
+        date: 31 may\n time: 3.30pm\n
+        venu: Trande Bridge\n
+        Game no:- 02.
+    </string>
+
+
+    <string name="play_3">
+
+        New Zealand vs Sri Lanka\n
+        date: 01 June\n time: 3.30pm\n
+        venu: kardif\n
+        Game no:- 03.
+
+
+    </string>
+
+
+    <string name="play_4">
+
+        Afghanistan vs Australia\n
+        date: 01 June\n time: 6.30pm\n
+        venu: Bristal\n
+        Game no:- 04.
+
+    </string>
+
+
+    <string name="play_5">
+
+        South Africa vs Bangladesh\n
+        date: 02 June\n time: 3.30pm\n
+        venu: oval,London\n
+        Game no:- 05.
+
+
+    </string>
+
+
+    <string name="play_6">
+
+        England vs Pakistan\n
+        date: 03 June\n time: 3.30pm\n
+        venu: treand bridge\n
+        Game no:- 06.
+
+    </string>
+
+
+    <string name="play_7">
+
+        Afghanistan vs  Sri Lanka\n
+        date: 04 June\n time: 3.30pm\n
+        venu: kardif\n
+        Game no:- 07.
+
+    </string>
+
+
+    <string name="play_8">
+
+        South Africa vs India\n
+        date: 05 June\n time: 3.30pm\n
+        venu: oval,London\n
+        Game no:- 08.
+
+
+    </string>
+
+
+    <string name="play_9">
+
+        Bangladesh vs New Zealand \n
+        date: 05 June\n time: 6.30pm\n
+        venu: oval,London\n
+        Game no:- 09.
+
+
+    </string>
+
+
+    <string name="play_10">
+
+        Australia vs  West Indies\n
+        date: 06 June\n time: 6.30pm\n
+        venu: oval,London\n
+        Game no:- 10.
+
+
+    </string>
+
+    <string name="play_11">
+
+        Pakistan vs  Sri Lanka\n
+        date: 07 June\n time: 6.30pm\n
+        venu: Bristol\n
+        Game no:- 11.
+
+    </string>
+
+    <string name="play_12">
+
+        England vs Bangladesh\n
+        date: 08 June\n time: 3.30pm\n
+        venu: Kardif\n
+        Game no:- 12.
+
+
+    </string>
+
+    <string name="play_13">
+
+         Afghanistan vs New Zealand\n
+        date: 08 June\n time: 6.30pm\n
+        venu: tanton\n
+        Game no:- 13.
+    </string>
+
+    <string name="play_14">
+        India vs Australia\n
+        date: 09 June\n time: 3.30pm\n
+        venu: Oval,London\n
+        Game no:- 14.</string>
+
+    <string name="play_15">
+
+        South Africa vs West Indies\n
+        date: 10 June\n time: 3.30pm\n
+        venu: Soudaampotan\n
+        Game no:- 15.
+    </string>
+
+    <string name="play_16">
+
+        Bangladesh vs Sri Lanka\n
+        date: 11 June\n time: 3.30pm\n
+        venu: Bristol\n
+        Game no:- 16.
+    </string>
+
+    <string name="play_17">
+
+        Australia vs Pakistan\n
+        date: 12 June\n time: 3.30pm\n
+        venu: tanton\n
+        Game no:- 17.
+
+    </string>
+
+    <string name="play_18">
+
+        India vs New Zealand\n
+        date: 13 June\n time: 3.30pm\n
+        venu: Natinghom\n
+        Game no:- 18.
+
+    </string>
+
+    <string name="play_19">
+
+        England vs West Indies\n
+        date: 14 June\n time: 3.30pm\n
+        venu: Soudaimpotant\n
+        Game no:- 19.
+    </string>
+
+    <string name="play_20">
+
+        Sri Lanka vs Australia\n
+        date: 15 June\n time: 6.30pm\n
+        venu: Bristol\n
+        Game no:- 20.
+
+    </string>
+
+    <string name="play_21">
+
+        South Africa vs Afghanistan\n
+        date: 15 June\n time: 6.30pm\n
+        venu: kardif\n
+        Game no:- 21.
+    </string>
+
+    <string name="play_22">
+
+        India vs Pakistan\n
+        date: 16 June\n time: 3.30pm\n
+        venu: Old Trafer\n
+        Game no:- 22.
+    </string>
+
+    <string name="play_23">
+        West Indies vs Bangladesh\n
+        date: 17 June\n time: 3.30pm\n
+        venu: tanton\n
+        Game no:- 23.
+    </string>
+
+    <string name="play_24">
+
+        England vs Afghanistan\n
+        date: 18 June\n time: 3.30pm\n
+        venu: Old Trafer\n
+        Game no:- 24.
+    </string>
+
+    <string name="play_25">
+
+        New Zealand vs South Africa\n
+        date: 19 June\n time: 3.30pm\n
+        venu: Agebaston\n
+        Game no:- 25.
+    </string>
+
+    <string name="play_26">
+
+        Australia vs Bangladesh\n
+        date: 20 June\n time: 3.30pm\n
+        venu: Trande Bridge\n
+        Game no:- 26.
+    </string>
+
+    <string name="play_27">
+
+        England vs  Sri Lanka\n
+        date: 21 June\n time: 3.30pm\n
+        venu: Lids\n
+        Game no:- 27.
+
+    </string>
+
+    <string name="play_28">
+
+        India vs Afghanistan\n
+        date: 22 June\n time: 3.30pm\n
+        venu: Soudspoton\n
+        Game no:- 28.
+    </string>
+
+    <string name="play_29">
+
+        West Indies vs New Zealand\n
+        date: 22 June\n time: 6.30pm\n
+        venu: Old Trafed\n
+        Game no:- 29.
+    </string>
+
+    <string name="play_30">
+        Pakistan vs South Africa\n
+        date: 23 June\n time: 3.30pm\n
+        venu: Lords,London\n
+        Game no:- 30.
+    </string>
+
+    <string name="play_31">
+
+        Bangladesh  vs Afghanistan\n
+        date: 24 June\n time: 3.30pm\n
+        venu: Soudspoton\n
+        Game no:- 31.
+
+    </string>
+
+    <string name="play_32">
+        England vs Australia\n
+        date: 25 June\n time: 3.30pm\n
+        venu: Lords,London\n
+        Game no:- 32.
+    </string>
+
+    <string name="play_33">
+        New Zaeland vs Pakistan\n
+        date: 26 June\n time: 3.30pm\n
+        venu: Agebaston\n
+        Game no:- 33.
+    </string>
+
+    <string name="play_34">
+        West Indies vs India\n
+        date: 27 June\n time: 3.30pm\n
+        venu: Old Trafer\n
+        Game no:- 34.
+    </string>
+
+    <string name="play_35">
+        Sri Lanka vs South Africa\n
+        date: 28 June\n time: 3.30pm\n
+        venu: Chester\n
+        Game no:- 35.
+    </string>
+
+    <string name="play_36">
+        Pakistan vs Afghanistan\n
+        date: 29 June\n time: 6.30pm\n
+        venu: Holding lids\n
+        Game no:- 36.
+    </string>
+
+    <string name="play_37">
+        New Zealand vs Australia\n
+        date: 29 June\n time: 6.30pm\n
+        venu: Lords, London\n
+        Game no:- 37.
+    </string>
+
+    <string name="play_38">
+        England vs India\n
+        date: 30 June\n time: 6.30pm\n
+        venu: Bristol\n
+        Game no:- 38.
+    </string>
+
+    <string name="play_39">
+        Siri Lanka vs West Indies\n
+        date: 01 July\n time: 3.30pm\n
+        venu: Chestar\n
+        Game no:- 39.
+    </string>
+
+    <string name="play_40">
+        Bangladesh vs India\n
+        date: 02 July\n time: 3.30pm\n
+        venu: Argebaston\n
+        Game no:- 40.
+    </string>
+
+    <string name="play_41">
+        England vs New Zealand\n
+        date: 03 July\n time: 3.30pm\n
+        venu: Chestar\n
+        Game no:- 41.
+    </string>
+
+    <string name="play_42">
+        West Indies vs Afghanistan\n
+        date: 04 July\n time: 3.30pm\n
+        venu: Holding, Leads\n
+        Game no:- 42.
+    </string>
+
+    <string name="play_43">
+
+        Pakistan vs Bangladesh\n
+        date: 05 July\n time: 6.30pm\n
+        venu: Lords, London\n
+        Game no:- 43.
+    </string>
+
+    <string name="play_44">
+        Sri Lanka vs India\n
+        date: 06 July\n time: 6.30pm\n
+        venu: Olding Leads\n
+        Game no:- 44.
+    </string>
+
+    <string name="play_45">
+        Australia vs South Africa\n
+        date: 06 July\n time: 6.30pm\n
+        venu: Old Trafed\n
+        Game no:- 45.
+    </string>
+
+    <string name="play_46">
+        First Semifinal (1 vs 4)\n
+        date: 09 July\n time: 3.30pm\n
+        venu: Old trafed\n
+        Game no:- 46.
+    </string>
+
+    <string name="play_47">
+        Second Semifinal (2 vs 3)\n
+        date: 11 July\n time: 3.30pm\n
+        venu: Agebaston\n
+        Game no:- 47.
+    </string>
+
+    <string name="play_48">
+        Final Match\n
+        date: 14 July\n time: 3.30pm\n
+        venu: Lords,London\n
+        Game no:- 48.
+
+    </string>
+
+
+    <!-- End fixture count to world cup-->
+
+
+    <!--*******************************end*************************************-->
+
+
+    <string name="ranking_1">
+       Team: England
+        rating:126
+
+    </string>
+
+
+    <!--player name of text -->
+
+    <string name="bang">Bangladesh Team</string>
+
+    <!--bangladesh-->
+    <string name="mashrafee">1. Mashrafe Mortaza (Captain)</string>
+    <string name="tamim">2. Tamim Iqbal </string>
+    <string name="shakib">3. Shakib Al Hasan</string>
+    <string name="imrul">4. Imrul Kayes </string>
+    <string name="summay">5. Summay Sarkar </string>
+    <string name="mahmudulla">6. Mahmudullah Riyad </string>
+    <string name="mushfik">7. Mushfikur Rahim </string>
+    <string name="sabbir">8. Sabbir Rahman </string>
+    <string name="liton">9. Liton Das </string>
+    <string name="mehedi">10. Mehedi Miraz </string>
+    <string name="nasir">11. Nasir Hossain</string>
+    <string name="mosadesk">12. Mosaddek Hossain</string>
+    <string name="ariful">13. Ariful Islam </string>
+    <string name="mustafiz">14. Mustafizu Rrahman</string>
+    <string name="taskin">15. Taskin Ahmed</string>
+    <string name="abu">16. Abu hyder Rony</string>
+    <string name="rubel">17. Rubel Hossain</string>
+    <string name="mosharaf">18. Mosharaf Hossain </string>
+    <string name="mithun">19. Mohamad Mithun</string>
+    <string name="saifuddin">20. Md.Saifuddin</string>
+    <string name="safiul">21. Safiul Islam</string>
+
+
+    <!--England-->
+
+    <string name="engg">England Team</string>
+
+    <string name="morgan">1. Eoin Morgan (Captain)</string>
+    <string name="ali">2.  Moeen Ali </string>
+    <string name="bairstow">3. Jonny Bairstow</string>
+    <string name="buttler">4. Jos Buttler </string>
+    <string name="curran">5. Sam Curran </string>
+    <string name="currann">6. Tom Curran </string>
+    <string name="hales">7. Alex Hales </string>
+    <string name="plunkett">8. Liam Plunkett </string>
+    <string name="rashid">9. Adil Rashid </string>
+    <string name="root">10. Joe Root </string>
+    <string name="roy">11. Jason Roy</string>
+    <string name="stokes">12. Ben Stokes</string>
+    <string name="stone">13. Olly Stone </string>
+    <string name="woakes">14. Chris Woakes</string>
+    <string name="wood">15. Mark Wood</string>
+    <string name="denly">16. Joe Denly</string>
+    <string name="jordan">17. Chris Jordan</string>
+    <string name="dawson">18. Liam Dawson</string>
+    <string name="broad">19. Stuart Broad</string>
+    <string name="leach">20. Jack Leach</string>
+    <string name="anderson">21. James anderson</string>
+
+
+    <!--India-->
+
+    <string name="ind">India Team</string>
+
+    <string name="Kohli">1. Virat Kohli (Captain)</string>
+    <string name="Karthik">2. Dinesh Karthik</string>
+    <string name="Dhoni">3. MS Dhoni</string>
+    <string name="Dhawan">4. Shikhar Dhawan</string>
+    <string name="Jadeja">5.Ravindra Jadeja</string>
+    <string name="Sharma">6. Rohit Sharma</string>
+    <string name="Sharmaa">7. Ishant Sharma</string>
+    <string name="Rahane">8.Ajinkya Rahane </string>
+    <string name="Rayudu">9. Ambati Rayudu</string>
+    <string name="Pandey">10. Manish Pandey</string>
+    <string name="Jadhav">11. Kedar Jadhav</string>
+    <string name="Ashwin">12.Ravichandran Ashwin</string>
+    <string name="Kumar">13. Bhuvneshwar Kumar</string>
+    <string name="Yadav">14. Umesh Yadav</string>
+    <string name="Chaha">15. Yuzvendra Chaha</string>
+    <string name="Shami">16. Mohammed Shami</string>
+    <string name="Bumrah">17. Jasprit Bumrah</string>
+    <string name="Thakur">18. Shardul Thakur</string>
+    <string name="Pandya">19. Hardik Pandya</string>
+    <string name="Pant">20.Rishabh Pant</string>
+    <string name="Rahul">21. Lokesh Rahul</string>
+
+
+    <!--New-->
+
+    <string name="newze">New Zealand</string>
+
+    <string name="Williamson">1. Kane Williamson (Captain)</string>
+    <string name="Taylor">2.Ross Taylor</string>
+    <string name="Southee">3. Tim Southee</string>
+    <string name="Anderson">4. Corey Anderson</string>
+    <string name="Boult">5.Trent Boult</string>
+    <string name="Worker">6. George Worker</string>
+    <string name="Guptill">7.Martin Guptill</string>
+    <string name="Watling">8.BJ Watling </string>
+    <string name="Wagner">9. Neil Wagner</string>
+    <string name="Latham">10. Tom Latham</string>
+    <string name="Grandhomme">11. Colin de Grandhomme</string>
+    <string name="Astle">12.Todd Astle</string>
+    <string name="Munro">13. Colin Munro</string>
+    <string name="Milne">14.Adam Milne</string>
+    <string name="Wheeler">15. Ben Wheeler</string>
+    <string name="Phillips">16. Glenn Phillips</string>
+    <string name="Ferguson">17. Lockie Ferguson</string>
+    <string name="Henry">18. Matt Henry</string>
+    <string name="Sodhi">19.Ish Sodhi</string>
+    <string name="Raval">20.Jeet Raval</string>
+    <string name="Niusm">21. James Niusm</string>
+
+
+    <!--south Africa-->
+
+    <string name="south">South Africa Team</string>
+
+    <string name="Plessis">1.Faf du Plessis (Captain)</string>
+    <string name="Steyn">2.Dale Steyn</string>
+    <string name="Duminy">3. JP Duminy</string>
+    <string name="Amla">4.Hashim Amla</string>
+    <string name="Villiers">5.AB de Villiers</string>
+    <string name="Philander">6.Vernon Philander</string>
+    <string name="Tahir">7.Imran Tahir</string>
+    <string name="Miller">8.David Miller </string>
+    <string name="Elgar">9. Dean Elgar</string>
+    <string name="Frylinck">10. Robert Frylinck</string>
+    <string name="Bavuma">11. Temba Bavuma</string>
+    <string name="Kock">12.Quinton de Kock</string>
+    <string name="Behardien">13. Farhaan Behardien</string>
+    <string name="Pretorius">14.Dwaine Pretorius</string>
+    <string name="Morris">15. Chris Morris</string>
+    <string name="Paterson">16. Dane Paterson</string>
+    <string name="Olivier">17. Duanne Olivier</string>
+    <string name="Bruyn">18. Theunis de Bruyn</string>
+    <string name="Morkel">19.Morne Morkel</string>
+    <string name="Hendricks">20.Reeza Hendricks</string>
+    <string name="Rabada">21. Rabada</string>
+
+
+    <!--Pakistan-->
+
+    <string name="pakis">Pakistan Team</string>
+
+    <string name="Ahmed">1.Sarfraz Ahmed (Captain)</string>
+    <string name="Hafeez">2.Mohammad Hafeez</string>
+    <string name="Malik">3. Shoaib Malik</string>
+    <string name="Riaz">4.Wahab Riaz</string>
+    <string name="Amir">5.Mohammad Amir</string>
+    <string name="Ali">6.Azhar Ali</string>
+    <string name="Masood">7.Shan Masood</string>
+    <string name="Shafiq">8.Asad Shafiq </string>
+    <string name="Shah">9. Yasir Shah</string>
+    <string name="Sohail">10. Haris Sohail</string>
+    <string name="jKhan">11. Junaid Khan</string>
+    <string name="Wasim">12.Imad Wasim</string>
+    <string name="Zaman">13.Fakhar Zaman</string>
+    <string name="Azam">14.Babar Azam</string>
+    <string name="Alii">15. Hasan Ali</string>
+    <string name="Ashraf">16.Faheem Ashraf</string>
+    <string name="Khan">17. Shadab Khan</string>
+    <string name="Afridi">18.Shaheen Afridi</string>
+    <string name="Akmal">19.Umar Akmal</string>
+    <string name="Talat">20.Hossain Talat</string>
+    <string name="ale">21. Asif ali</string>
+
+
+    <!--Australia-->
+
+    <string name="australia">Australian Team</string>
+
+    <string name="Finch">1.Aaron Finch (Captain)</string>
+    <string name="Marsh">2.Shaun Marsh</string>
+    <string name="Siddle">3. Peter Siddle</string>
+    <string name="Hazlewood">4.Josh Hazlewoodz</string>
+    <string name="Paine">5.Tim Paine</string>
+    <string name="Holland">6.Jon Holland</string>
+    <string name="Khawaja">7.Usman Khawaja</string>
+    <string name="Lyon">8.Nathan Lyon  </string>
+    <string name="Marshh">9. Mitchell Marsh</string>
+    <string name="Maddinson">10. Nic Maddinson</string>
+    <string name="Agar">11. Ashton Agar</string>
+    <string name="Stoinis">12.Marcus Stoinis</string>
+    <string name="Handscomb">13.Peter Handscomb</string>
+    <string name="Stanlake">14.Billy Stanlake</string>
+    <string name="Zampa">15. Adam Zampa</string>
+    <string name="Wildermuth">16.Jack Wildermuth</string>
+    <string name="Maxwell">17. Glenn Maxwell</string>
+    <string name="Tye">18.Andrew Tye</string>
+    <string name="Richardson">19.Jhye Richardson</string>
+    <string name="Short">20.DArcy Short</string>
+    <string name="Starc">21. Mitchell Starc </string>
+
+
+    <!--Srilanka-->
+
+    <string name="srilanka">Srilanka Team</string>
+
+    <string name="Chandimal">1.Dinesh Chandimal (Captain)</string>
+    <string name="Herath">2. Rangana Herath</string>
+    <string name="Malinga">3. Lasith Malinga</string>
+    <string name="Tharanga">4. Upul Tharanga</string>
+    <string name="Perera">5.Dilruwan Perera</string>
+    <string name="Pereraa">6. Thisara Perera</string>
+    <string name="Thirimanne">7. Lahiru Thirimanne</string>
+    <string name="Mathews">8. Angelo Mathews  </string>
+    <string name="Mendis">9. Kamindu Mendis</string>
+    <string name="Lakmal">10. Suranga Lakmal</string>
+    <string name="Silva">11. Kaushal Silva</string>
+    <string name="Karunaratne">12.Dimuth Karunaratne</string>
+    <string name="Pereraaa">13.Kusal Perera</string>
+    <string name="Pradeep">14.Nuwan Pradeep</string>
+    <string name="Dananjaya">15. Akila Dananjaya</string>
+    <string name="Pushpakumara">16.Malinda Pushpakumara</string>
+    <string name="Jayasuriya">17. Shehan Jayasuriya</string>
+    <string name="Silvar">18.Dhananjaya de Silva</string>
+    <string name="Dickwella">19.Niroshan Dickwella</string>
+    <string name="Shanaka">20.Dasun Shanaka</string>
+    <string name="Mendish">21.Kamindu Mendish</string>
+
+
+    <!--Srilanka-->
+
+    <string name="westindies">West Indies Team</string>
+
+    <string name="Brathwaite">1.Carlos Brathwaite (Captain)</string>
+    <string name="Fletcher">2. Andre Fletcher</string>
+    <string name="Walton">3. Chadwick Walton</string>
+    <string name="Badree">4. Samuel Badree</string>
+    <string name="Holder">5.Jason Holder</string>
+    <string name="Bishoo">6. Devendra Bishoo</string>
+    <string name="Russell">7. Andre Russell</string>
+    <string name="Nurse">8. Ashley Nurse  </string>
+    <string name="Brathwaites">9. Kraigg Brathwaite</string>
+    <string name="Gabriel">10.Shannon Gabriel</string>
+    <string name="Lewis">11. Evin Lewis</string>
+    <string name="Pooran">12.Nicholas Pooran</string>
+    <string name="Dowrich">13.Shane Dowrich</string>
+    <string name="Chase">14.Roston Chase</string>
+    <string name="Ambris">15. Sunil Ambris</string>
+    <string name="Williams">16.Kesrick Williams</string>
+    <string name="Hope">17. Shai Hope</string>
+    <string name="Powell">18.Rovman Powell</string>
+    <string name="Sami">19.Mohamad Sami</string>
+    <string name="Polard">20.Kiron Polard</string>
+    <string name="Hemraj">21.Chandrapaul Hemraj</string>
+
+
+    <!--Srilanka-->
+
+    <string name="afghanistan">Afghanistan Team</string>
+
+    <string name="Afghan">1.Asghar Afghan (Captain)</string>
+    <string name="Nabi">2. Mohammad Nabi</string>
+    <string name="Shafiqullah">3. Shafiqullah</string>
+    <string name="Ahmadi">4. Javed Ahmadi</string>
+    <string name="Shahzad">5.Mohammad Shahzad</string>
+    <string name="Alam">6. Aftab Alam</string>
+    <string name="Zadran">7. Dawlat Zadran</string>
+    <string name="Naib">8. Gulbadin Naib  </string>
+    <string name="Zadrann">9. Najibullah Zadran</string>
+    <string name="Zazai">10. Afsar Zazai</string>
+    <string name="Shahidi">11.Hashmatullah Shahidi</string>
+    <string name="Shahi">12.Rahmat Shah</string>
+    <string name="Ghani">13.Usman Ghani</string>
+    <string name="Ihsanullah">14.Ihsanullah</string>
+    <string name="Janat">15. Karim Janat</string>
+    <string name="Khanil">16.Rashid Khan</string>
+    <string name="Ashrafi">17. Sharafuddin Ashraf</string>
+    <string name="Khanne">18.Zahir Khan</string>
+    <string name="Rasooli">19.Darwish Rasooli</string>
+    <string name="Momand">20.Wafadar Momand</string>
+    <string name="Ahmad">21.Munir Ahmad</string>
+
+
+    <string name="bangladesh_text">
+
+           <string> Bangladesh Cricket Board Declare to Fourteen player in asia cup.\n\n\n  </string>
+
+            <string> Mashrafe Mortaza (c)\n </string>
+            <string> Shakib Al Hasan (vc)\n </string>
+            <string> Liton Das\n </string>
+            <string> Ariful Haque\n </string>
+            <string> Abu Hider\n </string>
+            <string> Rubel Hossain\n</string>
+            <string> Tamim Iqbal\n </string>
+            <string> Nazmul Islam\n </string>
+            <string>Mehidy Hasan Miraz\n</string>
+            <string>Mohammad Mithun\n</string>
+            <string>Mushfiqur Rahim\n</string>
+            <string>Mustafizur Rahman\n</string>
+            <string>Mosaddek Hossain Saikat\n</string>
+            <string>Nazmul Hossain Shanto\n\n\n\n</string>
+
+         <string> Captain  MASH invention:-- \n\n\n\n</string>
+
+
+         <string> -:Personal Information:-\n</string>
+         <string>Born:- Oct 05, 1983 (34 years)\n</string>
+         <string> Birth Place:- Norail, Jessore\n</string>
+         <string>Role Bowling:- Allrounder\n</string>
+         <string>Batting Style:- Right Handed Bat\n\n</string>
+
+         <string> -:Career Information:-\n</string>
+         <string> Kolkata Knight Riders,\n Asia XI,\n
+                   Bangladesh,\n Dhaka Gladiators,\n
+             Bangladesh Cricket Board XI,\n Comilla Victorians,
+             \n Rangpur Riders\n\n\n\n
+         </string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </string>
+
+
+    <string name="pakistan_text">
+
+           <string> Pakistan Cricket Board Declare to sixteen player in asia cup.\n\n\n  </string>
+
+            <string> Sarfraz Ahmed(c)\n  </string>
+            <string> Azhar Ali\n </string>
+            <string> Imam-ul-Haq\n </string>
+            <string> Sami Aslam\n </string>
+            <string> Haris Sohail\n</string>
+            <string> Babar Azam\n</string>
+            <string> Fakhar Zaman\n </string>
+            <string> Saad Ali\n </string>
+            <string>Asad Shafiq\n</string>
+            <string>Usman\n</string>
+            <string>Salahuddin\n</string>
+            <string>Shadab Khan\n</string>
+            <string>Mohammad Amir\n</string>
+            <string>Mohammad Abbas\n</string>
+            <string>Hasan Ali\n</string>
+            <string>Faheem Ashraf\n</string>
+
+    </string>
+
+
+    <string name="indian_text">
+
+           <string> Indian Cricket Board Declare to fifteen player in asia cup.\n\n\n  </string>
+
+            <string>  Rohit Sharma (c)\n </string>
+            <string>  Shikhar Dhawan (vc)\n </string>
+            <string> Khaleel Ahmed\n </string>
+            <string> MS Dhoni (wk)\n </string>
+            <string>Yuzvendra Chahal\n </string>
+            <string>  Kedar Jadhav\n</string>
+            <string>  Dinesh Karthik\n </string>
+            <string> Bhuvneshwar Kumar\n </string>
+            <string> K. L. Rahul\n</string>
+            <string>  Manish Pandey\n</string>
+            <string> Hardik Pandya\n</string>
+            <string> Axar Patel\n</string>
+            <string>Ambati Rayudu\n</string>
+            <string>Shardul Thakur\n</string>
+            <string>Kuldeep Yadav\n</string>
+
+    </string>
+
+
+    <string name="srilanka_text">
+
+           <string> Indian Cricket Board Declare to fifteen player in asia cup.\n\n\n  </string>
+
+            <string>  Angelo Mathews (c)\n </string>
+            <string>  Amila Aponso (vc)\n </string>
+            <string>  Dushmantha Chameera\n </string>
+            <string>Dinesh Chandimal\n </string>
+            <string>Akila Dananjaya\n </string>
+            <string>  Suranga Lakmal\n</string>
+            <string>  Lasith Malinga\n </string>
+            <string> Kusal Mendis\n </string>
+            <string> Dilruwan Perera\n</string>
+            <string>   Kusal Perera\n</string>
+            <string> Thisara Perera\n</string>
+            <string>  Kasun Rajitha\n</string>
+            <string>Dasun Shanaka\n</string>
+            <string> Dhananjaya de Silva\n</string>
+            <string>Upul Tharanga\n</string>
+
+    </string>
+
+
+    <!--world cup to win the match in Team name-->
+    <string name="westindies75">WestIndies-1975</string>
+    <string name="westindies79">WestIndies-1979</string>
+    <string name="india83">India-1983</string>
+    <string name="australia87">Australia-1987</string>
+    <string name="pakistan92">Pakistan-1992</string>
+    <string name="srilanka96">Srilanka-1996</string>
+    <string name="australia99">Australia-1999</string>
+    <string name="australia3">Australia-2003</string>
+    <string name="australia7">Australia-2007</string>
+    <string name="india11">India-2011</string>
+    <string name="australia15">Australia-2015</string>
+
+
+    <!--Live tv name  show in the world cupe-->
+
+    <string name="live_tvtext">
+
+            <string>1. Gazi TV: Bangladesh.\n\n</string>
+            <string>2. Machranga TV: Bangladesh.\n\n</string>
+            <string>3. Chanel9:Bangladesh.\n\n</string>
+            <string>4. Neo Prime:India,Bangladesh,\t\tPakistan,Srilanka,Nepal and Sub continental.\n\n</string>
+            <string>5. GEO Super: Pakistan.\n\n</string>
+            <string>6. MTV: Sports Srilanka.\n\n</string>
+            <string>7. Sony Six: India\n\n</string>
+            <string>8. Premier Sports: United Kingdom.\n\n</string>
+            <string>9. Setanta Sports: Ireland.\n\n</string>
+            <string>10.Flow TV: Caribbean Islands.\n\n</string>
+            <string>11.Orbit Showtime Networks: Middle East countries.\n\n</string>
+            <string>12.ESPN:USA.\n\n</string>
+            <string>13.Sports Max: British Virgin Islands,Barbados,Bermuda,Cayman,Islands.\n\n</string>
+
+    </string>
+
+
+    <!--<string name="gazi_tv"> 1.Gazi TV: Bangladesh.</string>-->
+    <!--<string name="mach_tv"> 2.Machranga Televison: Bangladesh.</string>-->
+    <!--<string name="chanel_tv"> 3.Chanel9 : Bangladesh</string>-->
+    <!--<string name="neo_tv"> 4.Neo Prime:India,Bangladesh,Pakistan,Srilanka,Nepal and Sub continental</string>-->
+    <!--<string name="geo_tv"> 5.GEO Super: Pakistan</string>-->
+    <!--<string name="mtv_tv"> 6.MTV: Sports Srilanka</string>-->
+    <!--<string name="sony_tv"> 7.Sony Six: India</string>-->
+    <!--<string name="sports_tv"> 8.Premier Sports: United Kingdom</string>-->
+    <!--<string name="setanta_tv"> 9.Setanta Sports: Ireland</string>-->
+    <!--<string name="folow_tv"> 10.Flow TV: Caribbean Islands</string>-->
+    <!--<string name="orbit_tv"> 11.Orbit Showtime Networks: Middle East countries</string>-->
+    <!--<string name="espn_tv"> 12.ESPN:USA</string>-->
+    <!--<string name="sport_tv"> 13.Sports Max: British Virgin Islands,Barbados,Bermuda,Cayman,Islands.</string>-->
+
+
+    <!--<string name="unit_id_ca">ca-app-pub-3940256099942544/6300978111</string>-->
+</resources>

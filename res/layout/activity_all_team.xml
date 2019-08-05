@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:padding="5dp"
+    android:background="#20716A"
+    tools:context=".AllTeamActivity">
+
+
+    <ScrollView
+        android:id="@+id/scrollView_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical">
+
+
+
+            <Button
+                android:id="@+id/button_england_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:drawableLeft="@drawable/england"
+                android:drawableRight="@drawable/englandcaptain"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:text="England"
+                android:background="#2C3B22"/>
+
+            <Button
+                android:id="@+id/button_india_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/india"
+                android:drawableRight="@drawable/idiacaptain"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:text="India"
+                android:background="#2C3B22"/>
+
+            <Button
+                android:id="@+id/button_newzeland_id_ne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/newzeland"
+                android:drawableRight="@drawable/newzecaptain"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:text="New Zealand "
+                android:background="#2C3B22"/>
+
+            <Button
+                android:id="@+id/button_southafrica_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/suothafrica"
+                android:drawableRight="@drawable/southcaptain"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:text="South Africa "
+                android:background="#2C3B22"/>
+
+            <Button
+                android:id="@+id/button_pakistan_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:drawableLeft="@drawable/pakistan"
+                android:drawableRight="@drawable/pakistancaptain"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:text="Pakistan "
+                android:background="#2C3B22"/>
+            <Button
+                android:id="@+id/button_australia_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:drawableLeft="@drawable/australia"
+                android:drawableRight="@drawable/auscaptain"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:text="Australia"
+                android:background="#2C3B22"/>
+
+            <Button
+                android:id="@+id/button_bangladesh_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/bangla"
+                android:drawableRight="@drawable/masrafee"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:textColor="#fff"
+                android:text="Bangladesh"
+                android:background="#2C3B22"/>
+
+            <Button
+                android:id="@+id/button_srilanka_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:drawableLeft="@drawable/srilanka"
+                android:drawableRight="@drawable/sricaptain"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:text="Sri Lanka"
+                android:background="#2C3B22"/>
+            <Button
+                android:id="@+id/button_westIndies_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:drawableLeft="@drawable/wesindies"
+                android:drawableRight="@drawable/westcaptain"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:text="West Indies "
+                android:background="#2C3B22"/>
+            <Button
+                android:id="@+id/button_afghanistan_id_af"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="30dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:drawableLeft="@drawable/afganstan"
+                android:drawableRight="@drawable/afgancaptain"
+                android:textColor="#fff"
+                android:text="Afghanistan"
+                android:background="#2C3B22"/>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+
+    <LinearLayout
+        android:id="@+id/addLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+
+        <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/addLayout"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-3101248432749567/3729301766"></com.google.android.gms.ads.AdView>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</RelativeLayout>

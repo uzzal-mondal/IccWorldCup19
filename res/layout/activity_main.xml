@@ -1,0 +1,884 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#496E2D"
+    android:padding="5dp"
+    tools:context=".MainActivity">
+
+
+    <!--Button create to player activity-->
+
+
+
+    <!--Adding to try ScrollVies-->
+
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical">
+
+
+           <ListView
+               android:id="@+id/listView_id"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+
+           </ListView>
+
+           <!-- start  create to player list Linear and Button-->
+
+
+           <Button
+
+               android:layout_width="340dp"
+               android:layout_height="match_parent"
+               android:background="#3A006B"
+               android:text="Icc cricket world cup -  2019"
+               android:textAllCaps="true"
+               android:layout_gravity="center"
+               android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+               android:textColor="#fff"
+               android:textSize="20sp"
+               android:layout_marginBottom="5dp"
+               android:textStyle="bold" />
+
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginBottom="1dp"
+               android:padding="10dp"
+               android:weightSum="2"
+               android:orientation="horizontal">
+
+               <Button
+                   android:id="@+id/buttonTeam_id"
+                   android:layout_width="228dp"
+                   android:layout_height="match_parent"
+                   android:layout_marginRight="15dp"
+                   android:layout_weight="1"
+                   android:background="#2C3B22"
+                   android:text="Team"
+                   android:textColor="#ffffff"
+                   android:textSize="20sp"
+                   android:textStyle="bold" />
+
+               <Button
+                   android:id="@+id/button_livescore_id"
+                   android:layout_width="222dp"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1"
+                   android:background="#2C3B22"
+                   android:text="Live Score"
+                   android:textColor="#ffffff"
+                   android:textSize="20sp"
+                   android:textStyle="bold" />
+
+
+           </LinearLayout>
+
+
+
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginBottom="15dp"
+               android:padding="10dp"
+               android:weightSum="2"
+               android:orientation="horizontal">
+
+               <Button
+                   android:id="@+id/button_icc_id"
+                   android:layout_width="228dp"
+                   android:layout_height="match_parent"
+                   android:layout_marginRight="15dp"
+                   android:layout_weight="1"
+                   android:background="#2C3B22"
+                   android:text="World cup (Winers)"
+                   android:textColor="#ffffff"
+                   android:textSize="18sp"
+                   android:textStyle="bold" />
+
+               <Button
+                   android:id="@+id/button_LiveTv_id"
+                   android:layout_width="222dp"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1"
+                   android:background="#2C3B22"
+                   android:text="Channels (broadcasting)"
+                   android:textColor="#ffffff"
+                   android:textSize="18sp"
+                   android:textStyle="bold" />
+
+
+           </LinearLayout>
+
+
+
+
+
+
+
+
+           <!-- end  create to player list Linear and Button-->
+
+           <!--<DigitalClock-->
+           <!--style="@style/Widget.AppCompat.Button.Colored"-->
+           <!--android:layout_width="wrap_content"-->
+           <!--android:layout_height="wrap_content"-->
+           <!--android:padding="10dp" />-->
+
+           <!--<TextView-->
+           <!--android:layout_width="wrap_content"-->
+           <!--android:layout_height="wrap_content"-->
+           <!--android:padding="20dp"-->
+           <!--android:text=" Asia Cricket  Cup "-->
+           <!--android:textColor="#ffffff"-->
+           <!--android:textSize="22sp" />-->
+
+
+           <Button
+               android:layout_width="300dp"
+               android:layout_height="match_parent"
+               android:background="#405e2a"
+               android:text="World cup fixtures - 2019"
+               android:textAllCaps="false"
+               android:layout_gravity="center"
+               android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+               android:textColor="#fff"
+               android:textSize="20sp"
+               android:layout_marginBottom="10dp"
+               android:textStyle="bold" />
+
+
+           <!--start button for fixture crete activity then photo show......-->
+
+
+           <Button
+               android:id="@+id/bangladesh_button"
+               android:layout_width="match_parent"
+               android:layout_height="130dp"
+               android:layout_margin="15dp"
+               android:background="#405e2a"
+               android:drawableLeft="@drawable/england"
+               android:drawableRight="@drawable/suothafrica"
+               android:text="@string/play_1"
+               android:textAllCaps="false"
+               android:textColor="#fdfdfd"
+               android:textSize="15sp"
+               android:textStyle="bold" />
+
+           <Button
+               android:id="@+id/pakistan_button"
+               android:layout_width="match_parent"
+               android:layout_height="130dp"
+               android:layout_margin="15dp"
+               android:background="#405e2a"
+               android:drawableLeft="@drawable/wesindies"
+               android:drawableRight="@drawable/pakistan"
+               android:text="@string/play_2"
+               android:textAllCaps="false"
+               android:textColor="#ffffff"
+               android:textSize="15sp"
+               android:textStyle="bold" />
+
+           <Button
+               android:id="@+id/indian_button"
+               android:layout_width="match_parent"
+               android:layout_height="130dp"
+               android:layout_margin="15dp"
+               android:background="#405e2a"
+               android:drawableLeft="@drawable/newzeland"
+               android:drawableRight="@drawable/srilanka"
+               android:text="@string/play_3"
+               android:textAllCaps="false"
+               android:textColor="#ffffff"
+               android:textSize="15sp"
+               android:textStyle="bold" />
+
+           <Button
+               android:id="@+id/srilanka_button"
+               android:layout_width="match_parent"
+               android:layout_height="130dp"
+               android:layout_margin="15dp"
+               android:background="#405e2a"
+               android:drawableLeft="@drawable/afganstan"
+               android:drawableRight="@drawable/australia"
+               android:text="@string/play_4"
+               android:textAllCaps="false"
+               android:textColor="#ffffff"
+               android:textSize="15sp"
+               android:textStyle="bold" />
+
+           <Button
+               android:id="@+id/austalia_button"
+               android:layout_width="match_parent"
+               android:layout_height="130dp"
+               android:layout_margin="15dp"
+               android:background="#405e2a"
+               android:drawableLeft="@drawable/suothafrica"
+               android:drawableRight="@drawable/bangla"
+               android:text="@string/play_5"
+               android:textAllCaps="false"
+               android:textColor="#ffffff"
+               android:textSize="15sp"
+               android:textStyle="bold" />
+
+           <Button
+               android:id="@+id/newziland_button"
+               android:layout_width="match_parent"
+               android:layout_height="130dp"
+               android:layout_margin="15dp"
+               android:background="#405e2a"
+               android:drawableLeft="@drawable/england"
+               android:drawableRight="@drawable/pakistan"
+               android:text="@string/play_6"
+               android:textAllCaps="false"
+               android:textColor="#ffffff"
+               android:textSize="15sp"
+               android:textStyle="bold" />
+
+           <Button
+               android:id="@+id/Afganstan_button"
+               android:layout_width="match_parent"
+               android:layout_height="130dp"
+               android:layout_margin="15dp"
+               android:background="#405e2a"
+               android:drawableLeft="@drawable/afganstan"
+               android:drawableRight="@drawable/srilanka"
+               android:text="@string/play_7"
+               android:textAllCaps="false"
+               android:textColor="#ffffff"
+               android:textSize="15sp"
+               android:textStyle="bold" />
+
+           <Button
+               android:id="@+id/Afganstan_button_8"
+               android:layout_width="match_parent"
+               android:layout_height="130dp"
+               android:layout_margin="15dp"
+               android:background="#405e2a"
+               android:drawableLeft="@drawable/suothafrica"
+               android:drawableRight="@drawable/india"
+               android:text="@string/play_8"
+               android:textAllCaps="false"
+               android:textColor="#ffffff"
+               android:textSize="15sp"
+               android:textStyle="bold" />
+
+           <Button
+               android:id="@+id/Afganstan_button_9"
+               android:layout_width="match_parent"
+               android:layout_height="130dp"
+               android:layout_margin="15dp"
+               android:background="#405e2a"
+               android:drawableLeft="@drawable/bangla"
+               android:drawableRight="@drawable/newzeland"
+               android:text="@string/play_9"
+               android:textAllCaps="false"
+               android:textColor="#ffffff"
+               android:textSize="15sp"
+               android:textStyle="bold" />
+
+           <Button
+               android:id="@+id/Afganstan_button_10"
+               android:layout_width="match_parent"
+               android:layout_height="130dp"
+               android:layout_margin="15dp"
+               android:background="#405e2a"
+               android:drawableLeft="@drawable/australia"
+               android:drawableRight="@drawable/wesindies"
+               android:text="@string/play_10"
+               android:textAllCaps="false"
+               android:textColor="#ffffff"
+               android:textSize="15sp"
+               android:textStyle="bold" />
+
+           <Button
+               android:id="@+id/Afganstan_button_11"
+               android:layout_width="match_parent"
+               android:layout_height="130dp"
+               android:layout_margin="15dp"
+               android:background="#405e2a"
+               android:drawableLeft="@drawable/pakistan"
+               android:drawableRight="@drawable/srilanka"
+               android:text="@string/play_11"
+               android:textAllCaps="false"
+               android:textColor="#ffffff"
+               android:textSize="15sp"
+               android:textStyle="bold" />
+
+           <Button
+               android:id="@+id/Afganstan_button_12"
+               android:layout_width="match_parent"
+               android:layout_height="130dp"
+               android:layout_margin="15dp"
+               android:background="#405e2a"
+               android:drawableLeft="@drawable/england"
+               android:drawableRight="@drawable/bangla"
+               android:text="@string/play_12"
+               android:textAllCaps="false"
+               android:textColor="#ffffff"
+               android:textSize="15sp"
+               android:textStyle="bold" />
+
+           <Button
+               android:id="@+id/Afganstan_button_13"
+               android:layout_width="match_parent"
+               android:layout_height="130dp"
+               android:layout_margin="15dp"
+               android:background="#405e2a"
+               android:drawableLeft="@drawable/afganstan"
+               android:drawableRight="@drawable/newzeland"
+               android:text="@string/play_13"
+               android:textAllCaps="false"
+               android:textColor="#ffffff"
+               android:textSize="15sp"
+               android:textStyle="bold" />
+
+           <Button
+               android:id="@+id/Afganstan_button_14"
+               android:layout_width="match_parent"
+               android:layout_height="130dp"
+               android:layout_margin="15dp"
+               android:background="#405e2a"
+               android:drawableLeft="@drawable/india"
+               android:drawableRight="@drawable/australia"
+               android:text="@string/play_14"
+               android:textAllCaps="false"
+               android:textColor="#ffffff"
+               android:textSize="15sp"
+               android:textStyle="bold" />
+
+           <Button
+               android:id="@+id/Afganstan_button_15"
+               android:layout_width="match_parent"
+               android:layout_height="130dp"
+               android:layout_margin="15dp"
+               android:background="#405e2a"
+               android:drawableLeft="@drawable/suothafrica"
+               android:drawableRight="@drawable/wesindies"
+               android:text="@string/play_15"
+               android:textAllCaps="false"
+               android:textColor="#ffffff"
+               android:textSize="15sp"
+               android:textStyle="bold" />
+
+           <Button
+               android:id="@+id/Afganstan_button_16"
+               android:layout_width="match_parent"
+               android:layout_height="130dp"
+               android:layout_margin="15dp"
+               android:background="#405e2a"
+               android:drawableLeft="@drawable/bangla"
+               android:drawableRight="@drawable/srilanka"
+               android:text="@string/play_16"
+               android:textAllCaps="false"
+               android:textColor="#ffffff"
+               android:textSize="15sp"
+               android:textStyle="bold" />
+
+           <Button
+               android:id="@+id/Afganstan_button_17"
+               android:layout_width="match_parent"
+               android:layout_height="130dp"
+               android:layout_margin="15dp"
+               android:background="#405e2a"
+               android:drawableLeft="@drawable/australia"
+               android:drawableRight="@drawable/pakistan"
+               android:text="@string/play_17"
+               android:textAllCaps="false"
+               android:textColor="#ffffff"
+               android:textSize="15sp"
+               android:textStyle="bold" />
+
+           <Button
+               android:id="@+id/Afganstan_button_18"
+               android:layout_width="match_parent"
+               android:layout_height="130dp"
+               android:layout_margin="15dp"
+               android:background="#405e2a"
+               android:drawableLeft="@drawable/india"
+               android:drawableRight="@drawable/newzeland"
+               android:text="@string/play_18"
+               android:textAllCaps="false"
+               android:textColor="#ffffff"
+               android:textSize="15sp"
+               android:textStyle="bold" />
+
+           <Button
+               android:id="@+id/Afganstan_button_19"
+               android:layout_width="match_parent"
+               android:layout_height="130dp"
+               android:layout_margin="15dp"
+               android:background="#405e2a"
+               android:drawableLeft="@drawable/england"
+               android:drawableRight="@drawable/wesindies"
+               android:text="@string/play_19"
+               android:textAllCaps="false"
+               android:textColor="#ffffff"
+               android:textSize="15sp"
+               android:textStyle="bold" />
+
+           <Button
+               android:id="@+id/Afganstan_button_20"
+               android:layout_width="match_parent"
+               android:layout_height="130dp"
+               android:layout_margin="15dp"
+               android:background="#405e2a"
+               android:drawableLeft="@drawable/srilanka"
+               android:drawableRight="@drawable/australia"
+               android:text="@string/play_20"
+               android:textAllCaps="false"
+               android:textColor="#ffffff"
+               android:textSize="15sp"
+               android:textStyle="bold" />
+
+           <Button
+               android:id="@+id/Afganstan_button_21"
+               android:layout_width="match_parent"
+               android:layout_height="130dp"
+               android:layout_margin="15dp"
+               android:background="#405e2a"
+               android:drawableLeft="@drawable/suothafrica"
+               android:drawableRight="@drawable/afganstan"
+               android:text="@string/play_21"
+               android:textAllCaps="false"
+               android:textColor="#ffffff"
+               android:textSize="15sp"
+               android:textStyle="bold" />
+
+           <Button
+               android:id="@+id/Afganstan_button_22"
+               android:layout_width="match_parent"
+               android:layout_height="130dp"
+               android:layout_margin="15dp"
+               android:background="#405e2a"
+               android:drawableLeft="@drawable/india"
+               android:drawableRight="@drawable/pakistan"
+               android:text="@string/play_22"
+               android:textAllCaps="false"
+               android:textColor="#ffffff"
+               android:textSize="15sp"
+               android:textStyle="bold" />
+
+           <Button
+               android:id="@+id/Afganstan_button_23"
+               android:layout_width="match_parent"
+               android:layout_height="130dp"
+               android:layout_margin="15dp"
+               android:background="#405e2a"
+               android:drawableLeft="@drawable/wesindies"
+               android:drawableRight="@drawable/bangla"
+               android:text="@string/play_23"
+               android:textAllCaps="false"
+               android:textColor="#ffffff"
+               android:textSize="15sp"
+               android:textStyle="bold" />
+
+           <Button
+               android:id="@+id/Afganstan_button_24"
+               android:layout_width="match_parent"
+               android:layout_height="130dp"
+               android:layout_margin="15dp"
+               android:background="#405e2a"
+               android:drawableLeft="@drawable/england"
+               android:drawableRight="@drawable/afganstan"
+               android:text="@string/play_24"
+               android:textAllCaps="false"
+               android:textColor="#ffffff"
+               android:textSize="15sp"
+               android:textStyle="bold" />
+
+           <Button
+               android:id="@+id/Afganstan_button_25"
+               android:layout_width="match_parent"
+               android:layout_height="130dp"
+               android:layout_margin="15dp"
+               android:background="#405e2a"
+               android:drawableLeft="@drawable/newzeland"
+               android:drawableRight="@drawable/suothafrica"
+               android:text="@string/play_25"
+               android:textAllCaps="false"
+               android:textColor="#ffffff"
+               android:textSize="15sp"
+               android:textStyle="bold" />
+
+           <Button
+               android:id="@+id/Afganstan_button_26"
+               android:layout_width="match_parent"
+               android:layout_height="130dp"
+               android:layout_margin="15dp"
+               android:background="#405e2a"
+               android:drawableLeft="@drawable/australia"
+               android:drawableRight="@drawable/bangla"
+               android:text="@string/play_26"
+               android:textAllCaps="false"
+               android:textColor="#ffffff"
+               android:textSize="15sp"
+               android:textStyle="bold" />
+
+           <Button
+               android:id="@+id/Afganstan_button_27"
+               android:layout_width="match_parent"
+               android:layout_height="130dp"
+               android:layout_margin="15dp"
+               android:background="#405e2a"
+               android:drawableLeft="@drawable/england"
+               android:drawableRight="@drawable/srilanka"
+               android:text="@string/play_27"
+               android:textAllCaps="false"
+               android:textColor="#ffffff"
+               android:textSize="15sp"
+               android:textStyle="bold" />
+
+           <Button
+               android:id="@+id/Afganstan_button_28"
+               android:layout_width="match_parent"
+               android:layout_height="130dp"
+               android:layout_margin="15dp"
+               android:background="#405e2a"
+               android:drawableLeft="@drawable/india"
+               android:drawableRight="@drawable/afganstan"
+               android:text="@string/play_28"
+               android:textAllCaps="false"
+               android:textColor="#ffffff"
+               android:textSize="15sp"
+               android:textStyle="bold" />
+
+           <Button
+               android:id="@+id/Afganstan_button_29"
+               android:layout_width="match_parent"
+               android:layout_height="130dp"
+               android:layout_margin="15dp"
+               android:background="#405e2a"
+               android:drawableLeft="@drawable/wesindies"
+               android:drawableRight="@drawable/newzeland"
+               android:text="@string/play_29"
+               android:textAllCaps="false"
+               android:textColor="#ffffff"
+               android:textSize="15sp"
+               android:textStyle="bold" />
+
+           <Button
+               android:id="@+id/Afganstan_button_30"
+               android:layout_width="match_parent"
+               android:layout_height="130dp"
+               android:layout_margin="15dp"
+               android:background="#405e2a"
+               android:drawableLeft="@drawable/pakistan"
+               android:drawableRight="@drawable/suothafrica"
+               android:text="@string/play_30"
+               android:textAllCaps="false"
+               android:textColor="#ffffff"
+               android:textSize="15sp"
+               android:textStyle="bold" />
+
+           <Button
+               android:id="@+id/Afganstan_button_31"
+               android:layout_width="match_parent"
+               android:layout_height="130dp"
+               android:layout_margin="15dp"
+               android:background="#405e2a"
+               android:drawableLeft="@drawable/bangla"
+               android:drawableRight="@drawable/afganstan"
+               android:text="@string/play_31"
+               android:textAllCaps="false"
+               android:textColor="#ffffff"
+               android:textSize="15sp"
+               android:textStyle="bold" />
+
+           <Button
+               android:id="@+id/Afganstan_button_32"
+               android:layout_width="match_parent"
+               android:layout_height="130dp"
+               android:layout_margin="15dp"
+               android:background="#405e2a"
+               android:drawableLeft="@drawable/england"
+               android:drawableRight="@drawable/australia"
+               android:text="@string/play_32"
+               android:textAllCaps="false"
+               android:textColor="#ffffff"
+               android:textSize="15sp"
+               android:textStyle="bold" />
+
+           <Button
+               android:id="@+id/Afganstan_button_33"
+               android:layout_width="match_parent"
+               android:layout_height="130dp"
+               android:layout_margin="15dp"
+               android:background="#405e2a"
+               android:drawableLeft="@drawable/newzeland"
+               android:drawableRight="@drawable/pakistan"
+               android:text="@string/play_33"
+               android:textAllCaps="false"
+               android:textColor="#ffffff"
+               android:textSize="15sp"
+               android:textStyle="bold" />
+
+           <Button
+               android:id="@+id/Afganstan_button_34"
+               android:layout_width="match_parent"
+               android:layout_height="130dp"
+               android:layout_margin="15dp"
+               android:background="#405e2a"
+               android:drawableLeft="@drawable/wesindies"
+               android:drawableRight="@drawable/india"
+               android:text="@string/play_34"
+               android:textAllCaps="false"
+               android:textColor="#ffffff"
+               android:textSize="15sp"
+               android:textStyle="bold" />
+
+           <Button
+               android:id="@+id/Afganstan_button_35"
+               android:layout_width="match_parent"
+               android:layout_height="130dp"
+               android:layout_margin="15dp"
+               android:background="#405e2a"
+               android:drawableLeft="@drawable/srilanka"
+               android:drawableRight="@drawable/suothafrica"
+               android:text="@string/play_35"
+               android:textAllCaps="false"
+               android:textColor="#ffffff"
+               android:textSize="15sp"
+               android:textStyle="bold" />
+
+           <Button
+               android:id="@+id/Afganstan_button_36"
+               android:layout_width="match_parent"
+               android:layout_height="130dp"
+               android:layout_margin="15dp"
+               android:background="#405e2a"
+               android:drawableLeft="@drawable/pakistan"
+               android:drawableRight="@drawable/afganstan"
+               android:text="@string/play_36"
+               android:textAllCaps="false"
+               android:textColor="#ffffff"
+               android:textSize="15sp"
+               android:textStyle="bold" />
+
+           <Button
+               android:id="@+id/Afganstan_button_37"
+               android:layout_width="match_parent"
+               android:layout_height="130dp"
+               android:layout_margin="15dp"
+               android:background="#405e2a"
+               android:drawableLeft="@drawable/newzeland"
+               android:drawableRight="@drawable/australia"
+               android:text="@string/play_37"
+               android:textAllCaps="false"
+               android:textColor="#ffffff"
+               android:textSize="15sp"
+               android:textStyle="bold" />
+
+           <Button
+               android:id="@+id/Afganstan_button_38"
+               android:layout_width="match_parent"
+               android:layout_height="130dp"
+               android:layout_margin="15dp"
+               android:background="#405e2a"
+               android:drawableLeft="@drawable/england"
+               android:drawableRight="@drawable/india"
+               android:text="@string/play_38"
+               android:textAllCaps="false"
+               android:textColor="#ffffff"
+               android:textSize="15sp"
+               android:textStyle="bold" />
+
+           <Button
+               android:id="@+id/Afganstan_button_39"
+               android:layout_width="match_parent"
+               android:layout_height="130dp"
+               android:layout_margin="15dp"
+               android:background="#405e2a"
+               android:drawableLeft="@drawable/srilanka"
+               android:drawableRight="@drawable/wesindies"
+               android:text="@string/play_39"
+               android:textAllCaps="false"
+               android:textColor="#ffffff"
+               android:textSize="15sp"
+               android:textStyle="bold" />
+
+           <Button
+               android:id="@+id/Afganstan_button_40"
+               android:layout_width="match_parent"
+               android:layout_height="130dp"
+               android:layout_margin="15dp"
+               android:background="#405e2a"
+               android:drawableLeft="@drawable/bangla"
+               android:drawableRight="@drawable/india"
+               android:text="@string/play_40"
+               android:textAllCaps="false"
+               android:textColor="#ffffff"
+               android:textSize="15sp"
+               android:textStyle="bold" />
+
+
+           <Button
+               android:id="@+id/Afganstan_button_41"
+               android:layout_width="match_parent"
+               android:layout_height="130dp"
+               android:layout_margin="15dp"
+               android:background="#405e2a"
+               android:drawableLeft="@drawable/england"
+               android:drawableRight="@drawable/newzeland"
+               android:text="@string/play_41"
+               android:textAllCaps="false"
+               android:textColor="#ffffff"
+               android:textSize="15sp"
+               android:textStyle="bold" />
+
+           <Button
+               android:id="@+id/Afganstan_button_42"
+               android:layout_width="match_parent"
+               android:layout_height="130dp"
+               android:layout_margin="15dp"
+               android:background="#405e2a"
+               android:drawableLeft="@drawable/wesindies"
+               android:drawableRight="@drawable/afganstan"
+               android:text="@string/play_42"
+               android:textAllCaps="false"
+               android:textColor="#ffffff"
+               android:textSize="15sp"
+               android:textStyle="bold" />
+
+           <Button
+               android:id="@+id/Afganstan_button_43"
+               android:layout_width="match_parent"
+               android:layout_height="130dp"
+               android:layout_margin="15dp"
+               android:background="#405e2a"
+               android:drawableLeft="@drawable/pakistan"
+               android:drawableRight="@drawable/bangla"
+               android:text="@string/play_43"
+               android:textAllCaps="false"
+               android:textColor="#ffffff"
+               android:textSize="15sp"
+               android:textStyle="bold" />
+
+           <Button
+               android:id="@+id/Afganstan_button_44"
+               android:layout_width="match_parent"
+               android:layout_height="130dp"
+               android:layout_margin="15dp"
+               android:background="#405e2a"
+               android:drawableLeft="@drawable/srilanka"
+               android:drawableRight="@drawable/india"
+               android:text="@string/play_44"
+               android:textAllCaps="false"
+               android:textColor="#ffffff"
+               android:textSize="15sp"
+               android:textStyle="bold" />
+
+           <Button
+               android:id="@+id/Afganstan_button_45"
+               android:layout_width="match_parent"
+               android:layout_height="130dp"
+               android:layout_margin="15dp"
+               android:background="#405e2a"
+               android:drawableLeft="@drawable/australia"
+               android:drawableRight="@drawable/suothafrica"
+               android:text="@string/play_45"
+               android:textAllCaps="false"
+               android:textColor="#ffffff"
+               android:textSize="15sp"
+               android:textStyle="bold" />
+
+           <Button
+               android:id="@+id/Afganstan_button_46"
+               android:layout_width="match_parent"
+               android:layout_height="130dp"
+               android:layout_margin="15dp"
+               android:background="#405e2a"
+               android:drawableLeft="@drawable/batball"
+               android:drawableRight="@drawable/batball"
+               android:text="@string/play_46"
+               android:textAllCaps="false"
+               android:textColor="#ffffff"
+               android:textSize="15sp"
+               android:textStyle="bold" />
+
+           <Button
+               android:id="@+id/Afganstan_button_47"
+               android:layout_width="match_parent"
+               android:layout_height="130dp"
+               android:layout_margin="15dp"
+               android:background="#405e2a"
+               android:drawableLeft="@drawable/batball"
+               android:drawableRight="@drawable/batball"
+               android:text="@string/play_47"
+               android:textAllCaps="false"
+               android:textColor="#ffffff"
+               android:textSize="15sp"
+               android:textStyle="bold" />
+
+           <Button
+               android:id="@+id/Afganstan_button_48"
+               android:layout_width="match_parent"
+               android:layout_height="130dp"
+               android:layout_margin="15dp"
+               android:background="#405e2a"
+               android:drawableLeft="@drawable/batball"
+               android:drawableRight="@drawable/batball"
+               android:text="@string/play_48"
+               android:textAllCaps="false"
+               android:textColor="#ffffff"
+               android:textSize="15sp"
+               android:layout_marginTop="50dp"
+               android:textStyle="bold" />
+
+
+       </LinearLayout>
+
+
+   </ScrollView>
+
+
+
+
+
+
+     <!--ekhane Linear layout silooo je text copy kora aseeeeee-->
+
+
+
+
+    <!--problem zone in a hereeee-->
+
+    <LinearLayout
+        android:id="@+id/addLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-3101248432749567/3729301766">
+        </com.google.android.gms.ads.AdView>
+
+
+    </LinearLayout>
+
+    <!--problem zone in a hereeee-->
+
+
+
+</RelativeLayout>
